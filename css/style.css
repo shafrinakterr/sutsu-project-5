@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --dark: #33302E;
+    --primary-color: #8B9B7F;
+    --text-color: #FEFDFB;
+
+}
+
+/* global design */
+.custom_btn {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 15px 40px 15px 40px;
+    border-radius: 100px;
+    display: block;
+    text-align: center;
+
+}
+
+.margin_top {
+    margin-top: 88px;
+}
+
+body {
+    font-family: "Poppins", system-ui;
+    background-color: #FEFDFB;
+}
+
+/* navbar */
+.nav_section {
+    background-color: var(--dark);
+    padding: 10px;
+
+
+
+}
+
+.navbar-toggler{
+    border: 1px solid #fff !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E ");
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 5%29' stroke-width='2' d='M7 7l16 16M7 23L23 7'/%3E%3C/svg%3E");
+}
+
+
+
+
+.modal-body input::placeholder {
+    color: #888888;
+    opacity: 1;
+}
+
+.modal-body input::-webkit-input-placeholder {
+    color: #888888;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
+
+.navbar-nav {
+    justify-content: center !important;
+}
+
+.nav-item a {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: var(--text-color) !important;
+}
+
+.nav-item a:focus {
+    background-color: var(--primary-color) !important;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.modal-body input {
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.modal-body input:focus {
+    outline: 0;
+
+}
+
+/* banner */
+h1 {
+    width: 65%;
+    font-size: 86px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.banner_section {
+    text-align: center;
+
+}
+
+.banner_section .custom_btn {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+/* shoes section*/
+.shoes_content {
+    background: #fff;
+    padding: 24px;
+    height: 424px;
+    border-radius: 8px;
+}
+
+.shoes_content img {
+    width: 381.28px;
+    height: 320px;
+
+}
+
+/* crafting_section */
+
+.crafting_section {
+    background-color: var(--primary-color);
+    padding: 88px 104px 88px 104px;
+    color: #fff;
+}
+
+.crafting_content {
+    padding: 20px;
+}
+
+.crafting_content h2 {
+    border-bottom: 1px solid #fff;
+    font-size: 38px;
+    padding-bottom: 10px;
+    line-height: 62.4px;
+    width: 100%;
+
+}
+
+.crafting_content p {
+    color: var(--text-color);
+    margin-bottom: 48px;
+}
+
+.crafting_content .custom_btn {
+    background-color: #fff;
+    color: var(--dark);
+
+}
+
+/* favorite section */
+
+.img_container {
+    background-color: #fff;
+    width: 224px;
+    height: 224px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.wishlist {
+    width: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.favorite_content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.favorite_content h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+/* coustomers section */
+
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+
+
+.customers_review_section {
+    background-color: #DCD1BF;
+    text-align: center;
+}
+
+.customers_review_section h2 {
+    width: 71%;
+
+}
+
+.coustomar_content {
+    padding: 5px;
+    height: 304px;
+    text-align: center;
+}
+
+.coustomar_content h3 {
+    font-size: 28px;
+    line-height: 36.4px;
+}
+
+.coustomar_content h5 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.coustomar_content h3 {
+    font-size: 20px;
+    line-height: 36.4px;
+}
+
+.coustomar_content p {
+    font-size: 18px;
+    line-height: 31px;
+    color: #33302E;
+}
+
+.carousel-inner {
+    padding: 40px 150px;
+}
+
+/* marefoot section */
+.marefoot_content {
+    text-align: center;
+}
+
+.marefoot_content img {
+    width: 64px;
+    height: 64px;
+}
+
+.marefoot_content p {
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+h2 {
+    font-size: 48px;
+    border-bottom: 1px solid var(--dark);
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.email {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.crafting_content p {
+    color: var(--text-color);
+}
+
+.email:focus {
+    outline: 0;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+footer {
+    background-color: var(--dark);
+    padding: 88px 88px 40px 88px;
+    color: var(--text-color);
+
+}
+
+.footer_container {
+    border-bottom: 1px solid #dededc;
+    padding-bottom: 20px;
+}
+
+.footer_menu li {
+    line-height: 2;
+
+}
+
+.footer_menu li a {
+    text-decoration: none;
+    color: #FEFDFB;
+
+}
