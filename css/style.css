@@ -375,3 +375,32 @@ footer {
     color: transparent;
     transition: 0.3s;
 }
+
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 23%;
+   
+  }
+
+  
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
