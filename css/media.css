@@ -35,6 +35,7 @@
         width: 100%;
         margin: 0 auto;
         font-size: 20px;
+        line-height: 29px;
         border-bottom: 1px solid var(--dark);
 
 
@@ -66,6 +67,11 @@
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+
+    .containe{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
    
 
