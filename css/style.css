@@ -16,6 +16,17 @@
     border-radius: 100px;
     display: block;
     text-align: center;
+    border: 1px solid var(--primary-color);
+
+}
+
+
+.custom_btn:hover {
+    background-color: transparent !important;
+    color: var(--dark);
+    transition: 0.5s;
+    box-shadow: none;
+    color: var(--primary-color);
 
 }
 
@@ -37,7 +48,7 @@ body {
 
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: 1px solid #fff !important;
 }
 
@@ -114,7 +125,11 @@ h1 {
     width: 300px;
     margin: 0 auto;
 
+
+
+
 }
+
 
 /* shoes section*/
 .shoes_content {
@@ -159,6 +174,12 @@ h1 {
 .crafting_content .custom_btn {
     background-color: #fff;
     color: var(--dark);
+
+}
+
+.crafting_content .custom_btn:hover {
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
 
 }
 
@@ -315,7 +336,7 @@ footer {
 }
 
 .footer_container {
-    border-bottom: 1px solid #dededc;
+    border-bottom: 1px solid #898987;
     padding-bottom: 20px;
 }
 
@@ -328,4 +349,28 @@ footer {
     text-decoration: none;
     color: #FEFDFB;
 
+}
+
+.footer_menu li a:hover {
+    color: var(--primary-color);
+
+}
+
+.fa, .insta {
+    font-size: 25px;
+    color: var(--text-color);
+
+}
+
+.fa:hover {
+    color: #007aff;
+    transition: 0.3s;
+
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.3s;
 }
